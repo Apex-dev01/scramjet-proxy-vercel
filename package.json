@@ -1,0 +1,16 @@
+{
+  "name": "scramjet-proxy-vercel",
+  "version": "1.0.0",
+  "description": "A Scramjet-based proxy with About:blank cloaking for Vercel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@mercuryworkshop/scramjet": "^1.0.2",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
